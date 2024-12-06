@@ -1,0 +1,41 @@
+**MÔ TẢ DỮ LIỆU**
+
+Tập dữ liệu mẫu tổng hợp hành vi sử dụng của khoảng 9000 chủ thẻ tín dụng hoạt động trong vòng 6 tháng qua. Tệp dữ liệu này ở mức khách hàng với 18 biến hành vi.
+
+Dưới đây là Bảng mô tả dữ liệu cho tập dữ liệu thẻ tín dụng:
+
+CUST_ID : Mã số nhận dạng của chủ thẻ tín dụng (Phân loại)
+
+BALANCE : Số dư còn lại trong tài khoản để thực hiện các giao dịch mua sắm
+
+BALANCE_FREQUENCY : Tần suất cập nhật số dư, điểm số từ 0 đến 1 (1 = cập nhật thường xuyên, 0 = không cập nhật thường xuyên)
+
+PURCHASES : Số tiền đã mua hàng từ tài khoản
+
+ONEOFF_PURCHASES : Số tiền mua hàng lớn nhất trong một lần
+
+INSTALLMENTS_PURCHASES : Số tiền mua hàng theo hình thức trả góp
+
+CASH_ADVANCE : Số tiền trả trước được cấp bởi người dùng
+
+PURCHASES_FREQUENCY : Tần suất mua hàng, điểm số từ 0 đến 1 (1 = mua hàng thường xuyên, 0 = không mua hàng thường xuyên)
+
+ONEOFFPURCHASESFREQUENCY : Tần suất mua hàng lớn trong một lần (1 = mua hàng lớn thường xuyên, 0 = không mua hàng lớn thường xuyên)
+
+PURCHASESINSTALLMENTSFREQUENCY : Tần suất mua hàng trả góp (1 = mua hàng trả góp thường xuyên, 0 = không mua hàng trả góp thường xuyên)
+
+CASHADVANCEFREQUENCY : Tần suất thanh toán trước bằng tiền mặt
+
+CASHADVANCETRX : Số giao dịch được thực hiện với "Thanh toán trước bằng tiền mặt"
+
+PURCHASES_TRX : Số giao dịch mua hàng đã thực hiện
+
+CREDIT_LIMIT : Hạn mức thẻ tín dụng cho người dùng
+
+PAYMENTS : Số tiền thanh toán được thực hiện bởi người dùng
+
+MINIMUM_PAYMENTS : Số tiền tối thiểu thanh toán được thực hiện bởi người dùng
+
+PRCFULLPAYMENT : Tỷ lệ thanh toán đầy đủ của người dùng
+
+TENURE : Thời hạn sử dụng thẻ tín dụng cho người dùng
