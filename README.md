@@ -15,13 +15,6 @@ This project uses YOLO-NAS and EasyOCR to detect license plates and perform Opti
 The dataset used for training and testing the YOLO-NAS model contains 484 annotated images of cars with license plates. The images were sourced from "Brave Images", "Google Images", and "https://flickr.com/". The annotations were made using [RoboFlow](https://app.roboflow.com/yolotraining-dfaoh/ocr-nsde5/deploy/1). 
 
 
-## Project Overview
-This project builds upon an [earlier version](https://github.com/JacobJ215/Optical-Character-Recognition-WebApp) that used YOLO-v5 and InceptionResNetV2 . The major changes and updates in this version include:
-* Transition from YOLO-v5 to YOLO-NAS for license plate detection
-* Replacement of pytesseract with EasyOCR for more accurate text extraction
-* Training the YOLO-NAS model for 15 epochs using Google Colab
-* Deployment as a Streamlit web application
-
 ## Evaluation
 
 * 'PPYoloELoss/loss_cls': 0.9181855
@@ -38,7 +31,7 @@ This project builds upon an [earlier version](https://github.com/JacobJ215/Optic
 
 1. Clone the repository:
 ```
-git clone https://github.com/JacobJ215/YOLO-NAS-OCR-WebApp/tree/main"
+git clone https://github.com/dovannam115/OCR_BKS_NAS/edit/main"
 cd YOLO-NAS-OCR-WebApp
 ```
 
