@@ -60,7 +60,6 @@ frame rate.
 
 
 ## Acknowledgments
-Inspired by https://github.com/MuhammadMoinFaisal
 
 The YOLO-NAS model used in this project is based on Super-Gradients Repository.
 
